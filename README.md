@@ -12,3 +12,9 @@ A tool to convert json files as provided by the humble bundle website into a tab
 6. ???
 7. Profit (Copy the output and paste it into your favorite spreadsheet software)
 
+## Output format
+
+Three tab separated columns:
+- Name
+- Steam store page link (if exists
+- 0 if the key has not been claimed yet, i.e. revealed on the humble bundle page, does not take into account whether it has been used on steam, 1 otherwise.
